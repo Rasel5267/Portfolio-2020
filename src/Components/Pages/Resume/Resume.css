@@ -1,0 +1,16 @@
+.resume {
+  background: #fffafa;
+  padding: 50px 0;
+}
+
+.resume img {
+  max-width: 100%;
+  height: 300px;
+  margin: 30px 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px 0px rgba(39, 39, 39, 0.7);
+}
+.resume-Btn {
+  margin-top: 40px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.skills__subtitle {
+  font-size: 1rem;
+  color: #662616;
+  margin-bottom: 1rem;
+}
+
+.skills__data {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.skills__name {
+  text-transform: uppercase;
+}
+
+.skills__bar {
+  position: absolute;
+  bottom: -0.75rem;
+  height: 0.25rem;
+  background-color: #cc4b2c;
+}
+
+.skills__html {
+  width: 85%;
+}
+.skills__bootstrap {
+  width: 90%;
+}
+.skills__js {
+  width: 85%;
+}
+.skills__react {
+  width: 90%;
+}
+.skills__firebase {
+  width: 80%;
+}
+.skills__node {
+  width: 50%;
+}
+.skills__mongodb {
+  width: 60%;
+}
+.skills__express {
+  width: 55%;
+}

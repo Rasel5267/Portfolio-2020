@@ -1,0 +1,38 @@
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navBtn {
+  color: #fff important;
+  border: none !important;
+  outline: none !important;
+}
+.nav__color {
+  background: #222;
+}
+
+.link-item {
+  color: #fff;
+  text-decoration: none !important;
+  margin-left: 15px;
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+.brand__link {
+  color: #fff;
+  text-decoration: none !important;
+  font-size: 25px;
+}
+.brand__link span {
+  color: #cc4b2c;
+}
+.brand__link:hover {
+  color: #fff;
+}
+.link-item:hover {
+  color: #cc4b2c;
+}
+.active {
+  color: #cc4b2c;
+}

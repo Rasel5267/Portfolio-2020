@@ -1,0 +1,25 @@
+.contact {
+  background: #fffafa;
+  padding-top: 50px;
+}
+
+.contactForm {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contactBtn {
+  background: #cc4b2c !important;
+  color: #fff !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 10px 25px !important;
+  transition: 0.3s ease !important;
+}
+
+.contactBtn:hover {
+  background-color: #662616 !important;
+  color: #fff;
+  padding: 15px 25px !important;
+}
