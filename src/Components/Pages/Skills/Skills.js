@@ -6,7 +6,7 @@ const Skills = () => {
         <section class="skills pb-5 section" id="skills">
             <div className="container">
                 <p class="section-subtitle text-center">Why Choose Me</p>
-                <h2 class="section-title">My expertise Area</h2>
+                <h2 class="section-title mb-5">My expertise Area</h2>
 
                 <div class="row">
                     <div class="skills__content col-md-6 col-sm-12">

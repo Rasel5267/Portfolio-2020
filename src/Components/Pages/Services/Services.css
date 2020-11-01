@@ -1,0 +1,51 @@
+.services {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.services__content {
+  padding: 1.5rem 0.5rem;
+  border: 2px solid #cc4b2c;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services__icon {
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #cc4b2c;
+  color: #fffafa;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.services__title {
+  font-size: 1.25rem;
+  color: #662616;
+  margin-bottom: 0.5rem;
+}
+
+.services__icon,
+.services__content,
+.services__description,
+.services__title {
+  transition: 0.5s;
+}
+
+.services__content:hover {
+  background-color: #cc4b2c;
+}
+
+.services__content:hover .services__icon {
+  background-color: #fffafa;
+  color: #cc4b2c;
+}
+
+.services__content:hover .services__title {
+  color: #fffafa;
+}
+
+.services__content:hover .services__description {
+  color: #fffafa;
+}

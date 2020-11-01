@@ -1,0 +1,23 @@
+.card {
+  height: 758px;
+}
+.projectBtn {
+  background: #cc4b2c !important;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: 0.3s !important;
+}
+.projectBtn .link {
+  color: #fff !important;
+  padding: 8px 20px;
+}
+.projectBtn:hover {
+  background-color: #662616 !important;
+  color: #fff !important;
+}
+
+.link:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}

@@ -1,10 +1,4 @@
-.contact {
-  background: #fffafa;
-  padding-top: 50px;
-}
-
 .contactForm {
-  width: 40%;
   margin: 0 auto;
 }
 
@@ -21,5 +15,4 @@
 .contactBtn:hover {
   background-color: #662616 !important;
   color: #fff;
-  padding: 15px 25px !important;
 }

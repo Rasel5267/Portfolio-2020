@@ -8,11 +8,10 @@ const About = () => {
             <div className="container">
                 <p class="section-subtitle text-center">My intro</p>
                 <h2 class="section-title text-center pb-5">About Me</h2>
-
                 <div className="row">
                     <div class="about__container mb-5 col-md-6 col-sm-12">
                         <div class="about__data">
-                            <p class="about__description">Hi, I'm a Frontend developer. Knowledgeable Web Designer
+                            <p class="about__description">Hi, I'm a Web developer. Knowledgeable Web Development and Design
                             with expert knowledge of - <b>HTML,
                             CSS, Bootstrap, Java Script, Reactjs,
                             WordPress theme customization, nodejs, mongoDB, Firebase, Express.js . </b>
