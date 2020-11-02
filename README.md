@@ -19,10 +19,10 @@
 - React Icon
 - netlify
 
-#### Want to use my code - Create React app
+#### Want to use my code - clone the repository
 
 ```
-    $ npx create-react-app my-app
+    $ git clone
 ```
 
 #### and then run the command for all dependencies in your file
