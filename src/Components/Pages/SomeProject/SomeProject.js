@@ -2,9 +2,9 @@ import React from 'react';
 import './SomeProject.css';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import work1 from '../../../images/Work/work1.PNG';
-import work2 from '../../../images/Work/work2.PNG';
-import work3 from '../../../images/Work/work3.PNG';
+import work1 from '../../../images/Work/work1.jpg';
+import work2 from '../../../images/Work/work2.jpg';
+import work3 from '../../../images/Work/work3.jpg';
 
 const projects = [
     { title: 'Creative Agency', projectDtl: 'Users can buy Default Services or Order a Custom One.review and Services and it also shows in the review section.Users can see the Services and Order they ordered.Users and Admin different dashboard.Admin can create new Services, See all the pending orders.New Services also show in Services Section.Admin can update status by admin panel and delete existing Services and Orders.', image:`${work1}`, technology: {dtl:'React Js, JavaScript, ES2015, Node js, FirebaseReact, Bootstrap, React Router, Express js, Redux js, MongoDB, Heroku, HTML5, CSS3'}, githubClient: "https://github.com/Rasel5267/creative-agency-client", gitHubServer: 'https://github.com/Rasel5267/creative-agency-server', liveSite: 'https://volunteer-network-associations.firebaseapp.com/'},
@@ -15,7 +15,7 @@ const projects = [
 const SomeProject = () => {
     return (
         <div>
-            <section class="works section m-0" id="work">
+            <section class="works section m-0">
             <div className="container">
                 <p class="section-subtitle text-center">My Portfolio</p>
                 <h2 class="section-title mb-5">Some of my Projects</h2>
@@ -24,7 +24,7 @@ const SomeProject = () => {
                     { 
                         projects.map(project =>
                             <div className="col-md-4 col-sm-12">
-                                <Card className="card mb-4">
+                                <Card className="projectCard mb-4">
                                     <Card.Img variant="top" style={{height: '230px'}} src={project.image} />
                                     <Card.Body>
                                         <Card.Title>{project.title}</Card.Title>

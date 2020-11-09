@@ -1,8 +1,8 @@
 import React from 'react';
 import './Resume.css';
-import resume1 from '../../../images/resume/resume1.PNG';
-import resume2 from '../../../images/resume/resume2.PNG';
-import resume3 from '../../../images/resume/resume3.PNG';
+import resume1 from '../../../images/resume/resume1.jpg';
+import resume2 from '../../../images/resume/resume2.jpg';
+import resume3 from '../../../images/resume/resume3.jpg';
 
 const Resume = () => {
     return (

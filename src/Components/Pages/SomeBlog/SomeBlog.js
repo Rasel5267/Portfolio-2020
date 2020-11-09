@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './Blogs.css';
+import { Link } from 'react-router-dom';
 import javascript1 from '../../../images/blog/javascript1.jpg';
 import javascript2 from '../../../images/blog/javascript2.jpg';
 import javascript3 from '../../../images/blog/javascript3.jpg';
@@ -17,15 +17,15 @@ const blogs = [
     { title: 'ReactJs Fundamental concept: 10 important things', image:`${reactJs}`, link: 'https://mahadiul-hasan.medium.com/reactjs-fundamental-concept-10-important-things-c33e0dc71b18'},
     { title: 'Some JavaScript interview question topic', image:`${javascript4}`, link: 'https://mahadiul-hasan.medium.com/some-javascript-interview-question-topic-7ebe40680678'},
     { title: 'Most Common Interview Question 2020', image:`${interview}`, link: 'https://mahadiul-hasan.medium.com/most-common-interview-question-2020-a49d756f8c0a'},
-    { title: 'Top 50 HTML Interview Question 2020', image:`${html}`, link: 'https://mahadiul-hasan.medium.com/top-50-html-interview-question-2020-cd19a578de77'},
-    { title: 'Top 50 CSS Interview Questions 2020', image:`${css}`, link: 'https://mahadiul-hasan.medium.com/top-50-css-interview-questions-2020-c2f8ac0e7ea9'},
 ]
 
-const Blogs = () => {
+
+const SomeBlog = () => {
     return (
         <section className="blogs section">
             <div className="container">
-                <h2 class="section-title mb-5">My Recent Blogs</h2>
+                <p class="section-subtitle text-center">My Blogs</p>
+                <h2 class="section-title mb-5">Some of my Blogs</h2>
                 <div class="row">
                     { 
                         blogs.map(blog =>
@@ -40,9 +40,14 @@ const Blogs = () => {
                         )
                     }
                 </div>
+                <div className="row">
+                    <div className="ml-auto mr-auto">
+                        <button className="projectBtn btn"><Link className="link" to="/blogs">See All Blogs</Link></button>
+                    </div>
+                </div>
             </div>
         </section>
     );
 };
 
-export default Blogs;
+export default SomeBlog;

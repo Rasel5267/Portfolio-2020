@@ -1,13 +1,11 @@
 import React from 'react';
 import './Showcase.css';
 import Typical from 'react-typical';
-import Particles from 'react-particles-js';
 
 const Showcase = () => {
     return (
         <div className="Showcase">
             <div className="wrapper">
-                <Particles  />
                 <div id="title">
                     <p>Hi I'm</p>
                     <h1>Mahadiul Hasan</h1>
@@ -19,7 +17,7 @@ const Showcase = () => {
                                 'Web Developer',
                                 1000,
                                 'Front-End Developer',
-                                1000
+                                1000,
                             ]}
                         />
                     </p>

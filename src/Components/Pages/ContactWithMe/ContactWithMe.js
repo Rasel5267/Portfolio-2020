@@ -1,20 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-
-const containerStyle = {
-  maxWidth: '100%',
-  height: '400px'
-};
-
-const location = {
-    lat: 25.716871,
-    lng: 89.263355
-}
-  
-const onLoad = marker => {
-    console.log('marker: ', marker)
-}
 
 function ContactWithMe(){
     return (
@@ -31,23 +16,8 @@ function ContactWithMe(){
                     </div>
                 </div>
             </div>
-            <div className="col-md-12">
-                <LoadScript googleMapsApiKey="AIzaSyAOTSErm-hGrIaOJbbVeAMelezegnsR3HY">
-                    <GoogleMap
-                        mapContainerStyle={containerStyle}
-                        center={location}
-                        zoom={14}
-                    >
-                                { /* Child components, such as markers, info windows, etc. */ }
-                        <Marker
-                            onLoad={onLoad}
-                            position={location}
-                        />
-                    </GoogleMap>
-                </LoadScript>
-            </div>
         </div>
     );
 };
 
-export default React.memo(ContactWithMe)
+export default ContactWithMe;
