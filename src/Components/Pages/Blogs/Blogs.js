@@ -19,6 +19,7 @@ const blogs = [
     { title: 'Most Common Interview Question 2020', image:`${interview}`, link: 'https://mahadiul-hasan.medium.com/most-common-interview-question-2020-a49d756f8c0a'},
     { title: 'Top 50 HTML Interview Question 2020', image:`${html}`, link: 'https://mahadiul-hasan.medium.com/top-50-html-interview-question-2020-cd19a578de77'},
     { title: 'Top 50 CSS Interview Questions 2020', image:`${css}`, link: 'https://mahadiul-hasan.medium.com/top-50-css-interview-questions-2020-c2f8ac0e7ea9'},
+    { title: 'JavaScript Coding Interview Question', image:`${javascript1}`, link: 'https://mahadiul-hasan.medium.com/javascript-coding-interview-question-f0947dd952e0'},
 ]
 
 const Blogs = () => {

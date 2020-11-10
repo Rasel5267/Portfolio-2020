@@ -17,7 +17,11 @@ const Footer = lazy(()=> import('./Components/Pages/Footer/Footer'));
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div class="content">
+    <div class="loading">
+       <span></span>
+    </div>
+ </div>}>
       <Router>
         <Navigation />
         <Switch>
