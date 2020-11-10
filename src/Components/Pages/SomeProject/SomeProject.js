@@ -44,7 +44,7 @@ const SomeProject = () => {
                     }
                 </div>
                 <div className="row">
-                    <div className="ml-auto mr-auto">
+                    <div className="ml-auto mr-auto mt-4">
                         <button className="projectBtn btn"><Link className="link" to="/projects">See All Projects</Link></button>
                     </div>
                 </div>

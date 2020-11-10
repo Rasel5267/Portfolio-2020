@@ -7,8 +7,6 @@ import javascript3 from '../../../images/blog/javascript3.jpg';
 import javascript4 from '../../../images/blog/javascript4.jpg';
 import reactJs from '../../../images/blog/react.jpg';
 import interview from '../../../images/blog/interview.jpg';
-import html from '../../../images/blog/html.jpg';
-import css from '../../../images/blog/css.jpg';
 
 const blogs = [
     { title: 'Introduction to JavaScript: Basic #JS Tutorial part1', image:`${javascript1}`, link: 'https://mahadiul-hasan.medium.com/introduction-to-javascript-basic-js-tutorial-part1-cdd53d689adb'},
@@ -22,7 +20,7 @@ const blogs = [
 
 const SomeBlog = () => {
     return (
-        <section className="blogs section">
+        <section className="blogs section pb-5">
             <div className="container">
                 <p class="section-subtitle text-center">My Blogs</p>
                 <h2 class="section-title mb-5">Some of my Blogs</h2>
@@ -33,7 +31,7 @@ const SomeBlog = () => {
                                 <Card className="blogCard mb-4">
                                     <Card.Img variant="top" style={{height: '230px'}} src={blog.image} />
                                     <Card.Body>
-                                        <a href={blog.link} target="_blank" rel="noreferrer"><Card.Title>{blog.title}</Card.Title></a>
+                                        <a className="blogLink" href={blog.link} target="_blank" rel="noreferrer"><Card.Title>{blog.title}</Card.Title></a>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -41,7 +39,7 @@ const SomeBlog = () => {
                     }
                 </div>
                 <div className="row">
-                    <div className="ml-auto mr-auto">
+                    <div className="ml-auto mr-auto mt-4">
                         <button className="projectBtn btn"><Link className="link" to="/blogs">See All Blogs</Link></button>
                     </div>
                 </div>

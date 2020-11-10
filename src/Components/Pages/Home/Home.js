@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactWithMe from '../ContactWithMe/ContactWithMe';
 import Services from '../Services/Services';
 import Showcase from '../Showcase/Showcase';
 import Skills from '../Skills/Skills';
@@ -14,7 +13,6 @@ const Home = () => {
             <SomeProject />
             <Services />
             <SomeBlog />
-            <ContactWithMe />
         </div>
     );
 };

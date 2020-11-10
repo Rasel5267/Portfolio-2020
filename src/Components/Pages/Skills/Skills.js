@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Skills.css';
 
 const Skills = () => {
     return (
-        <section class="skills pb-5 section" id="skills">
+        <section class="skills pb-3 section" id="skills">
             <div className="container">
                 <p class="section-subtitle text-center">Why Choose Me</p>
                 <h2 class="section-title mb-5">My expertise Area</h2>
@@ -56,6 +57,11 @@ const Skills = () => {
                             <span class="skills__number">55%</span>
                             <span class="skills__bar skills__express"></span>
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="ml-auto mr-auto mt-5">
+                        <button className="projectBtn btn"><Link className="link" to="/contact">Hire Me</Link></button>
                     </div>
                 </div>
             </div>

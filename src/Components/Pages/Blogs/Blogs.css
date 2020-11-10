@@ -1,5 +1,5 @@
-a,
-a:hover {
-  text-decoration: none;
-  color: #000;
+.blogLink,
+.blogLink:hover {
+  text-decoration: none !important;
+  color: #000 !important;
 }

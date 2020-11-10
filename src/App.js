@@ -1,4 +1,4 @@
-import React, {Suspense, lazy} from 'react';
+import React from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -6,47 +6,40 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Components/Pages/Home/Home';
-const About = lazy(()=> import('./Components/Pages/About/About'));
-const Projects= lazy(()=> import('./Components/Pages/Projects/Projects'));
-const Blogs = lazy(()=> import('./Components/Pages/Blogs/Blogs'));
-const Contact = lazy(()=> import('./Components/Pages/Contact/Contact'));
-const Navigation = lazy(()=> import('./Components/Pages/Navigation/Navigation'));
-const Resume = lazy(()=> import('./Components/Pages/Resume/Resume'));
-const Footer = lazy(()=> import('./Components/Pages/Footer/Footer'));
-
+import About from './Components/Pages/About/About';
+import Projects from './Components/Pages/Projects/Projects';
+import Blogs from './Components/Pages/Blogs/Blogs';
+import Contact from './Components/Pages/Contact/Contact';
+import Navigation from './Components/Pages/Navigation/Navigation';
+import Resume from './Components/Pages/Resume/Resume';
+import Footer from './Components/Pages/Footer/Footer';
 
 function App() {
   return (
-    <Suspense fallback={<div class="content">
-    <div class="loading">
-       <span></span>
-    </div>
- </div>}>
-      <Router>
-        <Navigation />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/blogs">
-            <Blogs />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>
-    </Suspense>
+    <Router>
+      <Navigation />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/blogs">
+          <Blogs />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/resume">
+          <Resume />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

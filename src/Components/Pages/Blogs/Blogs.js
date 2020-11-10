@@ -34,7 +34,7 @@ const Blogs = () => {
                                 <Card className="blogCard mb-4">
                                     <Card.Img variant="top" style={{height: '230px'}} src={blog.image} />
                                     <Card.Body>
-                                        <a href={blog.link} target="_blank" rel="noreferrer"><Card.Title>{blog.title}</Card.Title></a>
+                                        <a className="blogLink" href={blog.link} target="_blank" rel="noreferrer"><Card.Title>{blog.title}</Card.Title></a>
                                     </Card.Body>
                                 </Card>
                             </div>
