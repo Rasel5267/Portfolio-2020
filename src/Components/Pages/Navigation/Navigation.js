@@ -30,9 +30,6 @@ const Navigation = () => {
                             <li class="nav-item">
                                 <Link className="link-item nav-link" to="/contact">Contact</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link className="link-item nav-link" to="/resume">Resume</Link>
-                            </li>
                         </ul>
                     </div>
                 </div>

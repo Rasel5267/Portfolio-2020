@@ -21,7 +21,7 @@ const Showcase = () => {
                             ]}
                         />
                     </p>
-                    <button className="btn"><a href="https://drive.google.com/file/d/1blipk6zAE8uxfwxKZTYM7wtokT9LT7zW/view?usp=sharing" target="_blank" rel="noreferrer" download className="resumeBtn">Download Resume</a></button>
+                    <button className="btn"><a href="https://drive.google.com/file/d/115wcEpoW7ImS2CcqPtyp_eXmuVfW9mOS/view?usp=sharing" target="_blank" rel="noreferrer" download className="download__Btn">Download Resume</a></button>
                 </div>
             </div>
         </div>

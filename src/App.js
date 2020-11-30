@@ -11,7 +11,6 @@ import Projects from './Components/Pages/Projects/Projects';
 import Blogs from './Components/Pages/Blogs/Blogs';
 import Contact from './Components/Pages/Contact/Contact';
 import Navigation from './Components/Pages/Navigation/Navigation';
-import Resume from './Components/Pages/Resume/Resume';
 import Footer from './Components/Pages/Footer/Footer';
 
 function App() {
@@ -33,9 +32,6 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
-        </Route>
-        <Route path="/resume">
-          <Resume />
         </Route>
       </Switch>
       <Footer />

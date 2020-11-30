@@ -21,7 +21,7 @@
 #title h1 {
   font-size: 50px;
 }
-.resumeBtn {
+.download__Btn {
   background: #cc4b2c;
   text-decoration: none !important;
   color: #fff;
@@ -30,8 +30,7 @@
   margin-top: 10px;
   transition: 0.3s ease;
 }
-.resumeBtn:hover {
+.download__Btn:hover {
   background-color: #662616;
   color: #fff;
-  padding: 15px 25px;
 }
